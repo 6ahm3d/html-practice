@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML Practices</title>
+
+    <!-- CSS for modern and clean styling -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        h1, h2, p {
+            color: #444;
+        }
+
+        a {
+            color: #007bff;
+            text-decoration: none;
+            font-size: 1.1em;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        table {
+            border: 1px solid #ccc;
+            border-collapse: collapse;
+            width: 80%;
+            margin: 20px auto;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #007bff;
+            color: white;
+            font-size: 1.2em;
+        }
+
+        td {
+            background-color: #f9f9f9;
+        }
+
+        td:first-child {
+            text-align: left;
+        }
+
+        img {
+            border-radius: 5px;
+            margin-top: 10px;
+        }
+
+        .task {
+            margin: 20px 0;
+        }
+
+        .button-link {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .button-link:hover {
+            background-color: #0056b3;
+        }
+
+        .image-task {
+            margin: 20px 0;
+            display: inline-block;
+            text-align: center;
+        }
+
+        .image-task img {
+            border: 2px solid black;
+            margin: 10px auto;
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>HTML Practices</h1>
+
+    <div class="task">
+        <a href="#bottom" class="button-link">Jump to Bottom</a>
+    </div>
+
+    <!-- Task 1 -->
+    <div class="task">
+        <h2>Task 1: Numbers 1 - 10 in Different Colors</h2>
+        <p style="color:red">1</p>
+        <p style="color:green">2</p>
+        <p style="color:blue">3</p>
+        <p style="color:orange">4</p>
+        <p style="color:black">5</p>
+        <p style="color:palegoldenrod">6</p>
+        <p style="color:gray">7</p>
+        <p style="color:gold">8</p>
+        <p style="color:silver">9</p>
+        <p style="color:purple">10</p>
+    </div>
+
+    <!-- Task 2 -->
+    <div class="task">
+        <h2>Task 2: Squares of Numbers 1 - 10</h2>
+        <p>1<sup>2</sup> = 1</p>
+        <p>2<sup>2</sup> = 4</p>
+        <p>3<sup>2</sup> = 9</p>
+        <p>4<sup>2</sup> = 16</p>
+        <p>5<sup>2</sup> = 25</p>
+        <p>6<sup>2</sup> = 36</p>
+        <p>7<sup>2</sup> = 49</p>
+        <p>8<sup>2</sup> = 64</p>
+        <p>9<sup>2</sup> = 81</p>
+        <p>10<sup>2</sup> = 100</p>
+    </div>
+
+    <!-- Task 3 -->
+    <div class="task">
+        <h2>Task 3: Ordered and Unordered Lists</h2>
+        <h3>Ordered List: Fruits</h3>
+        <ol>
+            <li>Apples</li>
+            <li>Bananas</li>
+            <li>Oranges</li>
+            <li>Grapes</li>
+        </ol>
+
+        <h3>Unordered List: Fruits</h3>
+        <ul>
+            <li>Apples</li>
+            <li>Bananas</li>
+            <li>Oranges</li>
+            <li>Grapes</li>
+        </ul>
+    </div>
+
+    <!-- Task 4 -->
+    <div class="task">
+        <h2>Task 4: Envelope Format</h2>
+        <div style="display: flex; justify-content: center; gap: 50px;">
+            <div>
+                <p><strong>From:</strong><br>Dilbert H.<br>1234 Anim Street<br>P.O. Box 22222</p>
+            </div>
+            <div>
+                <p><strong>To:</strong><br>Someone A. Person<br>5555 Street Avenue<br>Metropolitan, Metropolis 11111</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Task 6 -->
+    <div class="task">
+        <h2>Task 6: Links to Websites</h2>
+        <a href="https://www.google.com/" target="_blank">Google</a><br>
+        <a href="https://www.shein.com/" target="_blank">Shein</a><br>
+        <a href="https://www.youtube.com/" target="_blank">YouTube</a><br>
+        <a href="https://www.lazada.com/" target="_blank">Lazada</a>
+    </div>
+
+    <!-- Task 7 -->
+    <div class="task">
+        <h2>Task 7: Display Five Images</h2>
+        <img src="1.jpg" alt="Image 1" title="Image 1" style="width:300px;height:300px;"><br><br>
+        <img src="2.jpg" alt="Image 2" title="Image 2" style="width:300px;height:300px;"><br><br>
+        <img src="3.jpg" alt="Image 3" title="Image 3" style="width:300px;height:300px;"><br><br>
+        <img src="4.jpg" alt="Image 4" title="Image 4" style="width:300px;height:300px;"><br><br>
+        <img src="5.jpg" alt="Image 5" title="Image 5" style="width:300px;height:300px;"><br><br>
+    </div>
+
+    <!-- Task 8 -->
+    <div class="task">
+        <h2>Task 8: Bordered Image</h2>
+        <img src="1.jpg" alt="Bordered Image" title="Bordered Image" style="border: 2px solid black; width: 200px; height: 200px;">
+    </div>
+
+    <!-- Task 9 -->
+    <div class="task">
+        <h2>Task 9: Image Linking to Itself</h2>
+        <p>Please click the image to link to itself and display the image in the browser by itself.</p>
+        <a href="1.jpg" target="_blank">
+            <img src="1.jpg" alt="Image Linking to Itself" title="Image Linking to Itself" style="width: 300px; height: 300px;">
+        </a>
+    </div>
+
+    <!-- Task 10 -->
+    <div class="task">
+        <h2>Task 10: Image Linking to Google</h2>
+        <p>Please click the image to link to a search engine (Google).</p>
+        <a href="https://www.google.com" target="_blank">
+            <img src="1.jpg" alt="Google Link Image" title="Google Link Image" style="width: 300px; height: 300px;">
+        </a>
+    </div>
+
+    <!-- Task 11 -->
+    <div class="task">
+        <h2>Task 11: Stock Table</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th colspan="6">My Tech Stock Picks</th>
+                </tr>
+                <tr>
+                    <th>Name</th>
+                    <th>Symbol</th>
+                    <th>Current</th>
+                    <th>52WK HI</th>
+                    <th>52WK LO</th>
+                    <th>P/E Ratio</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Microsoft</td>
+                    <td>MSFT</td>
+                    <td>86-3/8</td>
+                    <td>119-15/16</td>
+                    <td>75-1/2</td>
+                    <td>56.09</td>
+                </tr>
+                <tr>
+                    <td>Cisco System</td>
+                    <td>CSCO</td>
+                    <td>72-1/8</td>
+                    <td>82</td>
+                    <td>24-13/16</td>
+                    <td>400.69</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="task">
+        <a href="#top" class="button-link">Jump to Top</a>
+    </div>
+
+</body>
+</html>
